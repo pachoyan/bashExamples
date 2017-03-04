@@ -29,7 +29,10 @@ List directory contents and don't ignore hidden files (files start with `.`)
   `. .. directory .file1.txt file1.txt file2.txt`
   
 - Notes: 
+
    -  `.`  represents the actual directory (It is created automatically with the directory)
+  
    -  `..` represents the parent directory (It is also created automatically with the directory)
+   
    - `.file1.txt` is a hidden file  starts with dot (`.`) 
   
