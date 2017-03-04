@@ -172,11 +172,11 @@ It lists entries by columns.
 
 - Notes:
 
-  - It is possible that the output will be the same as the simple `ls`. So if you want to see how it works use a pipeline with less: `ls -C | less`. The output will be:
+  - It is possible that the output will be the same as the simple `ls`. So if you want to see how it works use a pipeline with less like next `ls -C | less`. The output will be:
   
      `directory  file1.txt  file1.txt~  file2.txt`
      
-  - But if you use the same command above but without -C (`ls | less`) it will list one per line:
+  - But if you use the same command above without -C, like `ls | less`  it will be listed one per line:
   
 ```
 directory  
