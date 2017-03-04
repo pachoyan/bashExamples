@@ -22,8 +22,8 @@ List directory contents
 
 ### ls -a 
 
-List directory contents and don't ignore hidden files (files start with `.`)
-It is the same as `ls -all`.
+It is a shortening of `ls --all` which does the same.
+List directory contents and don't ignore hidden files (files which starts with `.`) including `.` and `..`.
 
 - Output:
 
@@ -36,4 +36,19 @@ It is the same as `ls -all`.
    -  `..` represents the parent directory (It is also created automatically with the directory)
    
    - `.file1.txt` is a hidden file  starts with dot (`.`) 
-  
+   
+### ls -A
+
+It is a shortening of `ls --almost-all` which does the same.
+List directory contents and list hidden files  but it doesn't list `.` and `..`.
+
+- Output:
+
+  `directory .file1.txt file1.txt file2.txt`
+
+### ls -l --author
+
+It goes with `-l` command and list the author of each file.
+
+- Output: 
+
