@@ -176,7 +176,7 @@ It lists entries by columns.
   
      `directory  file1.txt  file1.txt~  file2.txt`
      
-  - But if you use the same command above without -C, like `ls | less`  it will be listed one per line:
+  - But if you use the same command above without -C, like `ls | less`  it will be list by lines:
   
 ```
 directory  
