@@ -101,7 +101,7 @@ Rounds to the high, in case we put MB and it is less than 1MB it will show 1MB.
    
 - Notes:
 
-  - With M or MB lists 1M in all files because are less than 1MB
+  - With M or MB lists 1M in all files because are less than 1MB - It will be the same with G, T and so on.
   
     ```
     total 1M
