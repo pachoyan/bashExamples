@@ -109,7 +109,6 @@ drwxrwxr-x 2 osboxes osboxes 1M Mar  4 10:53 directory
 -rw-rw-r-- 1 osboxes osboxes 1M Mar  4 13:00 file1.txt~
 -rw-rw-r-- 1 osboxes osboxes 1M Mar  4 10:50 file2.txt
     ```
-  
   - If it is used without -l the list, for example `ls --block-size=K` the output will be the same as `ls`
   
   ###
