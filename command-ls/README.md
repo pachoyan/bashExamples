@@ -116,6 +116,12 @@ drwxrwxr-x 2 osboxes osboxes 1M Mar  4 10:53 directory
     ```
   - If it is used without -l the list, for example `ls --block-size=K` the output will be the same as `ls`
   
-  ### ls -B
+
+### ls -B
   
-  directory  file1.txt  file2.txt
+It is a shortening of `ls --ignore-backups` which does the same.
+It doesn't list files ending with `~`.
+  
+- Output:
+
+  `directory  file1.txt  file2.txt`
