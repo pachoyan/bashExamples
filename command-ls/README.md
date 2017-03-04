@@ -20,9 +20,10 @@ List directory contents
 
     `directory file1.txt file2.txt`
 
-### ls -a, -all
+### ls -a 
 
 List directory contents and don't ignore hidden files (files start with `.`)
+It is the same as `ls -all`.
 
 - Output:
 
