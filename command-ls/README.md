@@ -99,4 +99,9 @@ Rounds to the high, in case we put MB and it is less than 1MB it will show 1MB.
    -rw-rw-r-- 1 osboxes osboxes 1K Mar  4 10:50 file2.txt
    ```
 
+total 1M
+drwxrwxr-x 2 osboxes osboxes 1M Mar  4 10:53 directory
+-rw-rw-r-- 1 osboxes osboxes 1M Mar  4 10:36 file1.txt
+-rw-rw-r-- 1 osboxes osboxes 1M Mar  4 10:50 file2.txt
+
 
