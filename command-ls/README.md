@@ -162,7 +162,10 @@ drwxrwxr-x 2 osboxes osboxes 4096 Mar  4 10:53 directory
 -rw-rw-r-- 1 osboxes osboxes   15 Mar  4 10:50 file2.txt
 ```
 
+### ls -C
 
+It lists entries by columns. 
+It is possible that the output will be the same as the simple `ls`. So if you want to see how works combine it with less: `ls -C | less`.
 
 
 
