@@ -87,6 +87,4 @@ and the output with `ls -b` lists the same as `ls`. The output is the filename w
 It goes with `-l` command and scales size. SIZE is an integer and optional unit. 
 Units are `K, M, G, T, P, E, Z, Y` or `KB, MB, GB, TB,...`
 
-
-It goes with `-l` command and scales size. SIZE is an integer and optional unit. 
-It goes with `-l` command and scales size. SIZE is an integer and optional unit. 
+Rounds to the high, in case we put MB and it is less than 1MB it will show 1MB or for example it can be the case that we put TB and the file weighs 40Kb but the result will be 1TB.
