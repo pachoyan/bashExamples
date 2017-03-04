@@ -19,7 +19,7 @@ List directory contents
 
 - Output:
 
-      `directory file1.txt file2.txt`
+      `directory  file1.txt  file1.txt~  file2.txt`
       
 ### ls -a 
 
@@ -28,7 +28,7 @@ List directory contents and don't ignore hidden files (files which starts with `
 
 - Output:
 
-    `. .. directory .file1.txt file1.txt file2.txt`
+    `.  ..  directory  .file1.txt  file1.txt  file1.txt~  file2.txt`
   
 - Notes: 
 
@@ -53,14 +53,11 @@ It goes with `-l` command and list the author of each file.
 - Output: 
 
    ```
-   total 12
-   drwxrwxr-x 2 osboxes osboxes osboxes 4096 Mar  4 10:53 directory
-   -rw-rw-r-- 1 osboxes osboxes osboxes   13 Mar  4 10:36 file1.txt
-   -rw-rw-r-- 1 osboxes osboxes osboxes   15 Mar  4 10:50 file2.txt
-   drwxrwxr-x 2 osboxes osboxes osboxes 4096 Mar  4 10:53 directory
-   drwxrwxr-x 2 osboxes osboxes osboxes 4096 Mar  4 10:53 directory
-   drwxrwxr-x 2 osboxes osboxes osboxes 4096 Mar  4 10:53 directory
-   -rw-rw-r-- 1 osboxes osboxes osboxes   15 Mar  4 10:50 file2.txt
+   total 16
+drwxrwxr-x 2 osboxes osboxes osboxes 4096 Mar  4 10:53 directory
+-rw-rw-r-- 1 osboxes osboxes osboxes   13 Mar  4 10:36 file1.txt
+-rw-rw-r-- 1 osboxes osboxes osboxes   13 Mar  4 13:00 file1.txt~
+-rw-rw-r-- 1 osboxes osboxes osboxes   15 Mar  4 10:50 file2.txt
    ```
 
 ### ls -b
