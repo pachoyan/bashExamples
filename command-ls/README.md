@@ -165,7 +165,9 @@ drwxrwxr-x 2 osboxes osboxes 4096 Mar  4 10:53 directory
 ### ls -C
 
 It lists entries by columns. 
-It is possible that the output will be the same as the simple `ls`. So if you want to see how works combine it with less: `ls -C | less`.
+It is possible that the output will be the same as the simple `ls`. So if you want to see how it works use a pipeline with less: `ls -C | less`.
+
+- Output (`ls -C | less`):
 
 
 
