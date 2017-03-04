@@ -21,6 +21,7 @@ List directory contents
 
       `directory  file1.txt  file1.txt~  file2.txt`
       
+
 ### ls -a 
 
 It is a shortening of `ls --all` which does the same.
@@ -38,6 +39,7 @@ List directory contents and don't ignore hidden files (files which starts with `
    
    - `.file1.txt` is a hidden file  starts with dot (`.`) 
    
+
 ### ls -A
 
 It is a shortening of `ls --almost-all` which does the same.
@@ -47,6 +49,7 @@ List directory contents and list hidden files  but it doesn't list `.` and `..`.
 
       `directory  .file1.txt  file1.txt  file1.txt~  file2.txt`
       
+
 ### ls -l --author
 
 It goes with `-l` command and list the author of each file.
@@ -59,6 +62,7 @@ drwxrwxr-x 2 osboxes osboxes osboxes 4096 Mar  4 10:53 directory
 -rw-rw-r-- 1 osboxes osboxes osboxes   13 Mar  4 13:00 file1.txt~
 -rw-rw-r-- 1 osboxes osboxes osboxes   15 Mar  4 10:50 file2.txt
    ```
+
 
 ### ls -b
 
@@ -80,6 +84,7 @@ and the output with `ls -b` lists the same as `ls`. The output is the filename w
 
     *?¿ºª?¿&%$·SpecialCharacterfile.txt
   
+
 ### ls -l --block-size={SIZE}
 
 It goes with `-l` command and scales size. SIZE is an integer and optional unit. 
@@ -111,4 +116,6 @@ drwxrwxr-x 2 osboxes osboxes 1M Mar  4 10:53 directory
     ```
   - If it is used without -l the list, for example `ls --block-size=K` the output will be the same as `ls`
   
-  ###
+  ### ls -B
+  
+  directory  file1.txt  file2.txt
