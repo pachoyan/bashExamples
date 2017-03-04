@@ -5,6 +5,7 @@ The directory `dir`has the next files:
 - `file1.txt` with content 'Hello World!'
 - `file2.txt` with content 'Hello World 2!'
 - `.file1.txt` with content 'Hello World Hide!'
+- `file1.txt~` backup file with content 'Hello World!'
 - `directory` with content file_directory.txt
 
 ----
