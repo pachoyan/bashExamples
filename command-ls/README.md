@@ -51,4 +51,8 @@ List directory contents and list hidden files  but it doesn't list `.` and `..`.
 It goes with `-l` command and list the author of each file.
 
 - Output: 
-
+  
+   total 12
+   drwxrwxr-x 2 osboxes osboxes osboxes 4096 Mar  4 10:53 directory
+   -rw-rw-r-- 1 osboxes osboxes osboxes   13 Mar  4 10:36 file1.txt
+   -rw-rw-r-- 1 osboxes osboxes osboxes   15 Mar  4 10:50 file2.txt
