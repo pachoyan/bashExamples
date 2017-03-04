@@ -136,6 +136,10 @@ It sorts the list by time, newest first.
   
 ### ls -lt -c
 
+It sorts the list by time using the long format.
+
+- Output:
+
 ```
 total 16
 -rw-rw-r-- 1 osboxes osboxes   13 Mar  4 13:00 file1.txt~
@@ -146,6 +150,10 @@ drwxrwxr-x 2 osboxes osboxes 4096 Mar  4 10:53 directory
 
 ### ls -l -c
 
+It shows the ctime and sorts by name using the long format.
+
+- Output:
+
 ```
 total 16
 drwxrwxr-x 2 osboxes osboxes 4096 Mar  4 10:53 directory
@@ -154,10 +162,6 @@ drwxrwxr-x 2 osboxes osboxes 4096 Mar  4 10:53 directory
 -rw-rw-r-- 1 osboxes osboxes   15 Mar  4 10:50 file2.txt
 ```
 
-
-with -lt: sort by, and show, ctime (time of last modification of
-              file  status  information)  with -l: show ctime and sort by name
-              otherwise: sort by ctime, newest first
 
 
 
