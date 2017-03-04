@@ -18,7 +18,7 @@ List directory contents
 
 - Output:
 
-    `directory file1.txt file2.txt`
+      directory file1.txt file2.txt
 
 ### ls -a 
 
@@ -27,7 +27,7 @@ List directory contents and don't ignore hidden files (files which starts with `
 
 - Output:
 
-  `. .. directory .file1.txt file1.txt file2.txt`
+      . .. directory .file1.txt file1.txt file2.txt
   
 - Notes: 
 
@@ -44,7 +44,7 @@ List directory contents and list hidden files  but it doesn't list `.` and `..`.
 
 - Output:
 
-  `directory .file1.txt file1.txt file2.txt`
+      directory .file1.txt file1.txt file2.txt
 
 ### ls -l --author
 
@@ -69,17 +69,17 @@ It prints C-style escapes for nongraphic characters
  
 - Output
 
- `directory file1.txt file2.txt`
+      directory file1.txt file2.txt
  
  
 - Notes:
  
 **At the moment** I've tried with some files with names like: 
 
-    `\*\?\¿\º\ª\?\¿\&\%\$\·SpecialCharacterfile.txt` 
+    \*\?\¿\º\ª\?\¿\&\%\$\·SpecialCharacterfile.txt
     
 and the output with `ls -b` lists the same as `ls`. The output is the filename with the special characters. So the file above will be list like next:
 
-    `*?¿ºª?¿&%$·SpecialCharacterfile.txt`
+    *?¿ºª?¿&%$·SpecialCharacterfile.txt
   
  
