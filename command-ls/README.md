@@ -31,7 +31,6 @@ List directory contents and don't ignore hidden files (files which starts with `
 ```
     .  ..  directory  .file1.txt  file1.txt  file1.txt~  file2.txt
 ```
-  
 - Notes: 
 
    -  `.`  represents the actual directory (It is created automatically with the directory)
@@ -47,9 +46,9 @@ It is a shortening of `ls --almost-all` which does the same.
 List directory contents and list hidden files  but it doesn't list `.` and `..`.
 
 - Output:
-
-      `directory  .file1.txt  file1.txt  file1.txt~  file2.txt`
-      
+```
+      directory  .file1.txt  file1.txt  file1.txt~  file2.txt
+```     
 
 ### ls -l --author
 
@@ -71,9 +70,9 @@ It is a shortening of `ls --escape` which does the same.
 It prints C-style escapes for nongraphic characters
  
 - Output
-
-      `directory  file1.txt  file1.txt~  file2.txt`
- 
+```
+      directory  file1.txt  file1.txt~  file2.txt
+``` 
  
 - Notes:
  
@@ -124,16 +123,17 @@ It is a shortening of `ls --ignore-backups` which does the same.
 It doesn't list files ending with `~`.
   
 - Output:
-
-  `directory  file1.txt  file2.txt`
-
+```
+  directory  file1.txt  file2.txt
+```
 ### ls -c
 
 It sorts the list by time, newest first.
 
 - Output:
-
-  `file1.txt~  directory  file2.txt  file1.txt`
+```
+  file1.txt~  directory  file2.txt  file1.txt
+```
   
 ### ls -lt -c
 
@@ -168,15 +168,15 @@ drwxrwxr-x 2 osboxes osboxes 4096 Mar  4 10:53 directory
 It lists entries by columns. 
 
 - Output:
- 
-   `directory  file1.txt  file1.txt~  file2.txt`
-
+``` 
+   directory  file1.txt  file1.txt~  file2.txt`
+```
 - Notes:
 
   - It is possible that the output will be the same as the simple `ls`. So if you want to see how it works use a pipeline with less like next `ls -C | less`. The output will be:
-  
-     `directory  file1.txt  file1.txt~  file2.txt`
-     
+```  
+     directory  file1.txt  file1.txt~  file2.txt
+```
   - But if you use the same command above without -C, like `ls | less`  it will be list by lines:
   
 ```
