@@ -45,7 +45,7 @@ List directory contents and list hidden files  but it doesn't list `.` and `..`.
 
 - Output:
 
-      `directory .file1.txt file1.txt file2.txt`
+      `directory  .file1.txt  file1.txt  file1.txt~  file2.txt`
       
 ### ls -l --author
 
