@@ -20,7 +20,6 @@ List directory contents
 
       `directory file1.txt file2.txt`
       
-     
 ### ls -a 
 
 It is a shortening of `ls --all` which does the same.
@@ -28,7 +27,7 @@ List directory contents and don't ignore hidden files (files which starts with `
 
 - Output:
 
-      `. .. directory .file1.txt file1.txt file2.txt`
+    `. .. directory .file1.txt file1.txt file2.txt`
   
 - Notes: 
 
@@ -45,8 +44,8 @@ List directory contents and list hidden files  but it doesn't list `.` and `..`.
 
 - Output:
 
-      directory .file1.txt file1.txt file2.txt
-
+      `directory .file1.txt file1.txt file2.txt`
+      
 ### ls -l --author
 
 It goes with `-l` command and list the author of each file.
@@ -70,7 +69,7 @@ It prints C-style escapes for nongraphic characters
  
 - Output
 
-      directory file1.txt file2.txt
+      `directory file1.txt file2.txt`
  
  
 - Notes:
