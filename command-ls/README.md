@@ -173,7 +173,7 @@ It lists entries by columns.
 ```
 - Notes:
 
-  - It is possible that the output will be the same as the simple `ls`. So if you want to see how it works use a pipeline with less like next `ls -C | less`. The output will be:
+  - It is possible that the output will be the same as the simple `ls`. So if you want to see how it works use a pipeline with <a href="https://github.com/pachoyan/bashExamples/tree/master/command-less">less</a> like next `ls -C | less`. The output will be:
 ```  
      directory  file1.txt  file1.txt~  file2.txt
 ```
@@ -196,6 +196,9 @@ Output (`ls --color=never`):
 ```
 
 - Notes:
+
   - Using color to distinguish file types is disabled both by  default  and with  `--color=never`.  
-  - With `--color=auto`, ls emits color codes only when standard output is connected to a terminal.  
-  - The `LS_COLORS`  environment variable can change the settings. Use the <a href="https://github.com/pachoyan/bashExamples/edit/master/command-dircolors/README.md">dircolors</a> command to set it.
+  
+  - With `--color=auto`, ls emits color codes only when standard output is connected to a terminal. 
+  
+  - The `LS_COLORS`  environment variable can change the settings. Use the <a href="https://github.com/pachoyan/bashExamples/tree/master/command-dircolors">dircolors</a> command to set it.
