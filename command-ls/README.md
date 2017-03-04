@@ -1,5 +1,11 @@
-## Command Examples
+## Command ls
 
-### Machine: Machine Ubuntu 14.04.5 Trusty Tahr <a href="http://www.osboxes.org/ubuntu/">osboxes.org - Ubuntu</a>
+The examples have been done with the directory `dir` of this section.
+The directory `dir`has the next files:
+- `file1.txt` with content 'Hello World!'
+- `file2.txt` with content 'Hello World 2!'
+- `.file1.txt` with content 'Hello World Hide!'
+- `directory` with content file_directory.txt
 
-- command-ls | <a href="https://github.com/pachoyan/bashExamples/tree/master/command-ls">Go</a>
+### ls
+
