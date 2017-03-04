@@ -188,6 +188,14 @@ file2.txt
 ### ls --color={WHEN}
 
 Colorize the output. The available values are:  `always`, `yes`, `force`, `never`, `no`, `none`, `auto`, `tty`, `if-tty`.
-Using color to distinguish file types is disabled both by  default  and with  --color=never.  
 
-With --color=auto, ls emits color codes only when standard output is connected to a terminal.  The LS_COLORS  environment variable can change the settings. Use the dircolors command to set it.
+Output (`ls --color=never`):
+
+``` 
+   directory  file1.txt  file1.txt~  file2.txt`
+```
+
+- Notes:
+  - Using color to distinguish file types is disabled both by  default  and with  --color=never.  
+
+  - With --color=auto, ls emits color codes only when standard output is connected to a terminal.  The LS_COLORS  environment variable can change the settings. Use the dircolors command to set it.
