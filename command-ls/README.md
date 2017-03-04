@@ -67,7 +67,7 @@ It prints C-style escapes for nongraphic characters
  
 - Output
 
-      `directory file1.txt file2.txt`
+      `directory  file1.txt  file1.txt~  file2.txt`
  
  
 - Notes:
@@ -91,10 +91,11 @@ Rounds to the high, in case we put MB and it is less than 1MB it will show 1MB.
 
 
    ```
-   total 12K
-   drwxrwxr-x 2 osboxes osboxes 4K Mar  4 10:53 directory
-   -rw-rw-r-- 1 osboxes osboxes 1K Mar  4 10:36 file1.txt
-   -rw-rw-r-- 1 osboxes osboxes 1K Mar  4 10:50 file2.txt
+   total 16K
+drwxrwxr-x 2 osboxes osboxes 4K Mar  4 10:53 directory
+-rw-rw-r-- 1 osboxes osboxes 1K Mar  4 10:36 file1.txt
+-rw-rw-r-- 1 osboxes osboxes 1K Mar  4 13:00 file1.txt~
+-rw-rw-r-- 1 osboxes osboxes 1K Mar  4 10:50 file2.txt
    ```
    
 - Notes:
