@@ -18,9 +18,9 @@ Shows the manual.
 List directory contents
 
 - Output:
-
-      `directory  file1.txt  file1.txt~  file2.txt`
-      
+```
+      directory  file1.txt  file1.txt~  file2.txt
+```      
 
 ### ls -a 
 
@@ -28,8 +28,9 @@ It is a shortening of `ls --all` which does the same.
 List directory contents and don't ignore hidden files (files which starts with `.`) including `.` and `..`.
 
 - Output:
-
-    `.  ..  directory  .file1.txt  file1.txt  file1.txt~  file2.txt`
+```
+    .  ..  directory  .file1.txt  file1.txt  file1.txt~  file2.txt
+```
   
 - Notes: 
 
