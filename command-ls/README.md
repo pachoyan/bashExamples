@@ -125,3 +125,11 @@ It doesn't list files ending with `~`.
 - Output:
 
   `directory  file1.txt  file2.txt`
+
+### ls -c
+
+It sorts the list by time, newest first.
+
+- Output:
+
+
