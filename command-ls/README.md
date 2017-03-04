@@ -82,4 +82,11 @@ and the output with `ls -b` lists the same as `ls`. The output is the filename w
 
     *?¿ºª?¿&%$·SpecialCharacterfile.txt
   
- 
+### ls -l --block-size={SIZE}
+
+It goes with `-l` command and scales size. SIZE is an integer and optional unit. 
+Units are `K, M, G, T, P, E, Z, Y` or `KB, MB, GB, TB,...`
+
+
+It goes with `-l` command and scales size. SIZE is an integer and optional unit. 
+It goes with `-l` command and scales size. SIZE is an integer and optional unit. 
