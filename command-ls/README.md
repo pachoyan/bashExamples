@@ -62,3 +62,24 @@ It goes with `-l` command and list the author of each file.
    -rw-rw-r-- 1 osboxes osboxes osboxes   15 Mar  4 10:50 file2.txt
    ```
 
+### ls -b
+
+It is a shortening of `ls --escape` which does the same.
+It prints C-style escapes for nongraphic characters
+ 
+- Output
+
+ `directory file1.txt file2.txt`
+ 
+ 
+- Notes:
+ 
+**At the moment** I've tried with some files with names like: 
+
+    `\*\?\¿\º\ª\?\¿\&\%\$\·SpecialCharacterfile.txt` 
+    
+and the output with `ls -b` lists the same as `ls`. The output is the filename with the special characters. So the file above will be list like next:
+
+    `*?¿ºª?¿&%$·SpecialCharacterfile.txt`
+  
+ 
