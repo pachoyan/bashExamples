@@ -173,7 +173,7 @@ It lists entries by columns.
 ```
 - Notes:
 
-  - It is possible that the output will be the same as the simple `ls`. So if you want to see how it works use a pipeline with less like next `ls -C | less`. The output will be:
+  - It is possible that the output will be the same as the simple `ls`. So if you want to see how it works use a pipeline with <a href="https://github.com/pachoyan/bashExamples/tree/master/command-less">less</a> like next `ls -C | less`. The output will be:
 ```  
      directory  file1.txt  file1.txt~  file2.txt
 ```
