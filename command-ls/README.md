@@ -132,24 +132,27 @@ It sorts the list by time, newest first.
 
 - Output:
 
-file1.txt~  directory  file2.txt  file1.txt
+  `file1.txt~  directory  file2.txt  file1.txt`
+  
+### ls -lt -c
 
-ls -lt -c
-
+```
 total 16
 -rw-rw-r-- 1 osboxes osboxes   13 Mar  4 13:00 file1.txt~
 drwxrwxr-x 2 osboxes osboxes 4096 Mar  4 10:53 directory
 -rw-rw-r-- 1 osboxes osboxes   15 Mar  4 10:50 file2.txt
 -rw-rw-r-- 1 osboxes osboxes   13 Mar  4 10:39 file1.txt
+```
 
-ls -l -c
+### ls -l -c
 
+```
 total 16
 drwxrwxr-x 2 osboxes osboxes 4096 Mar  4 10:53 directory
 -rw-rw-r-- 1 osboxes osboxes   13 Mar  4 10:39 file1.txt
 -rw-rw-r-- 1 osboxes osboxes   13 Mar  4 13:00 file1.txt~
 -rw-rw-r-- 1 osboxes osboxes   15 Mar  4 10:50 file2.txt
-
+```
 
 
 with -lt: sort by, and show, ctime (time of last modification of
