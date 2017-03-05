@@ -222,12 +222,14 @@ An useful example of how use it could be adding the `-l` argument, so you'll see
 So if you use `ls -ld`.
 
 - Output (`ls -ld`):
-
-   `drwxrwxr-x 3 osboxes osboxes 4096 Mar  5 09:20 .`
+   ``` 
+   drwxrwxr-x 3 osboxes osboxes 4096 Mar  5 09:20 .
+   ``` 
    
 - Output (`ls -ld directory`)
-
-    `drwxrwxr-x 2 osboxes osboxes 4096 Mar  4 10:53 directory/`
+     ``` 
+    drwxrwxr-x 2 osboxes osboxes 4096 Mar  4 10:53 directory/
+     ``` 
 
 - Notes: 
 
