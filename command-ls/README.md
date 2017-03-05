@@ -329,6 +329,7 @@ It does te same as `ls -F` but it does not append `*` in executable files.
    
    - You can alo use one of this arguments to see the same output
 
+
         - across: `ls -x`
         - commas: `ls -m`
         - horizontal: `ls -x`
