@@ -227,5 +227,5 @@ So if you use `ls -ld`.
 - Notes: 
    - If you want to use list the directories in the current folder you could use `ls -d */` 
       - Output: 
-      
-         `directory/`       
+     
+      `directory/`       
