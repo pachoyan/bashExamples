@@ -230,4 +230,6 @@ So if you use `ls -ld`.
    
       - Output: 
      
-      directory/      
+      directory/ 
+      
+   - More info: http://askubuntu.com/a/889541/580852 - Thanks to <a href="http://askubuntu.com/users/527764/zanna">Zanna</a>
