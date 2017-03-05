@@ -6,7 +6,7 @@ The directory `dir`has the next files:
 - `file2.txt` with content 'Hello World 2!'
 - `.file1.txt` with content 'Hello World Hide!'
 - `file1.txt~` backup file with content 'Hello World!'
-- `directory` with files file_directory.txt and \n\t\b\a\b
+- `directory` with files file_directory.txt, executable_file.sh and \n\t\b\a\b
 
 ----
 ### man ls
@@ -73,11 +73,11 @@ To try it going to the directory `/directory` usign `cd directory`.
 
 - Output with `ls`:
 ```
-      ?????  file_directory.txt
+      ?????  executable_file.sh  file_directory.txt
 ```
 - Output with `ls -b`:
 ```
-      \n\t\b\a\b  file_directory.txt
+      \n\t\b\a\b  executable_file.sh  file_directory.txt
 ``` 
 - Notes:
  
