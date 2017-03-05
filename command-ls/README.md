@@ -247,4 +247,16 @@ It generates an output designed for Emacs' dired mode.
 
 ``` 
 directory  file1.txt  file1.txt~  file2.txt
+```
+
+### ls -f
+
+It is a shortening of `ls --classify` which does the same.
+It does not sort. Simply it enables `-aU` but disables `-ls --color`.
+So it lists all files why it uses `-a`. And it does not sort using list entries in directory order like `-U`. Therefore it disabtles the color.
+
+- Output (see directory is list without color):
+
 ``` 
+.file1.txt  file1.txt~  file2.txt  file1.txt  directory  ..  .
+```
