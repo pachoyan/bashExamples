@@ -69,7 +69,7 @@ drwxrwxr-x 2 osboxes osboxes osboxes 4096 Mar  4 10:53 directory
 It is a shortening of `ls --escape` which does the same.
 It prints C-style escapes for nongraphic characters
 
-To try it going to the directory `/directory` usign `cd directory`.
+**Instructions:** *To try it, go to the directory `/directory` usign `cd directory`.*
 
 - Output with `ls`:
 ```
@@ -267,11 +267,16 @@ It is a shortening of `ls --classify` which does the same.
 
 It appends an indicator (one of `*/=>@|`) to entries.
 
-
-- Output (see / in directory):
+- Output int dir:
 
 ``` 
 directory/  file1.txt  file1.txt~  file2.txt
+```
+
+- Output in /directory (**Instructions:** *To try it, go to the directory `/directory` usign `cd directory`.*):
+
+``` 
+?????  executable_file.sh*  file_directory.txt
 ```
 
 - Notes:
@@ -287,3 +292,23 @@ directory/  file1.txt  file1.txt~  file2.txt
   
 
 ### ls --file-type
+
+It does te same as `ls -F` but it does not append `*` in executable files.
+
+**Instructions:** *To try it, go to the directory `/directory` usign `cd directory`.*
+
+- Output (see * is not list as ls -F does):
+
+``` 
+?????  executable_file.sh  file_directory.txt
+```
+
+- Notes: 
+   
+   - In the root dir if you use ls --file-type you'll see the output works with other types like folders:
+  
+   
+    ``` 
+    directory/  file1.txt  file1.txt~  file2.txt
+    ```
+   
