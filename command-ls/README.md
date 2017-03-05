@@ -68,12 +68,17 @@ drwxrwxr-x 2 osboxes osboxes osboxes 4096 Mar  4 10:53 directory
 
 It is a shortening of `ls --escape` which does the same.
 It prints C-style escapes for nongraphic characters
- 
-- Output
+
+To try it goes to the directory `/directory` usign `cd directory`.
+
+- Output with `ls`:
 ```
-      directory  file1.txt  file1.txt~  file2.txt
+      ?????  file_directory.txt
+```
+- Output with `ls -b`:
+```
+      \n\t\b\a\b  file_directory.txt
 ``` 
- 
 - Notes:
  
  I've tried with some files with names like: 
