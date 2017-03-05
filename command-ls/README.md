@@ -202,3 +202,24 @@ Output (`ls --color=never`):
   - With `--color=auto`, ls emits color codes only when standard output is connected to a terminal. 
   
   - The `LS_COLORS`  environment variable can change the settings. Use the <a href="https://github.com/pachoyan/bashExamples/tree/master/command-dircolors">dircolors</a> command to set it.
+  
+  
+### ls -d
+
+It is a shortening of `ls --directory` which does the same.
+It lists the directory entries instead of contents, and do not derefrence symbolic links.
+
+If you use ls -d you'll see the output `.` which is the current folder.
+It can be used to see a folder too adding a parameter of the folder name: `ls --directory anydirectory`
+
+An useful example of how use it could be adding the `-l` argument, so you'll see more info about the current folder or the folder you pass an argument.
+
+So if you use `ls -ld`.
+
+- Output (`ls -ld`):
+
+   `drwxrwxr-x 3 osboxes osboxes 4096 Mar  5 09:20 .`
+   
+- Output (`ls -ld directory`)
+
+    `drwxrwxr-x 2 osboxes osboxes 4096 Mar  4 10:53 directory/`
