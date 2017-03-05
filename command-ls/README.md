@@ -225,7 +225,9 @@ So if you use `ls -ld`.
     `drwxrwxr-x 2 osboxes osboxes 4096 Mar  4 10:53 directory/`
 
 - Notes: 
-   - If you want to use list the directories in the current folder you could use `ls -d */` 
+
+   - If you want to use list the directories in the current folder you could use `ls -d */`
+   
       - Output: 
      
-      `directory/`       
+      directory/      
