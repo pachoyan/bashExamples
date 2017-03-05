@@ -69,7 +69,7 @@ drwxrwxr-x 2 osboxes osboxes osboxes 4096 Mar  4 10:53 directory
 It is a shortening of `ls --escape` which does the same.
 It prints C-style escapes for nongraphic characters
 
-To try it goes to the directory `/directory` usign `cd directory`.
+To try it going to the directory `/directory` usign `cd directory`.
 
 - Output with `ls`:
 ```
@@ -235,3 +235,14 @@ So if you use `ls -ld`.
       directory/ 
       
    - More info: http://askubuntu.com/a/889541/580852 - Thanks to <a href="http://askubuntu.com/users/527764/zanna">Zanna</a>
+  
+### ls -D
+
+It is a shortening of `ls --dired` which does the same.
+It generates an output designed for Emacs' dired mode.
+
+- Output:
+
+``` 
+directory  file1.txt  file1.txt~  file2.txt
+``` 
