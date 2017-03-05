@@ -327,13 +327,12 @@ It does te same as `ls -F` but it does not append `*` in executable files.
 
 - Notes:
    
-   - You can alo use one of this arguments to see the same output
+   - You can alo use one of this arguments to see the same output:
 
-
-        - across: `ls -x`
-        - commas: `ls -m`
-        - horizontal: `ls -x`
-        - long: `ls -l`
-        - single-column: `ls -1`
-        - verbose: `ls -l`
-        - vertical: `ls -C`
+       - across: `ls -x`
+       - commas: `ls -m`
+       - horizontal: `ls -x`
+       - long: `ls -l`
+       - single-column: `ls -1`
+       - verbose: `ls -l`
+       - vertical: `ls -C`
