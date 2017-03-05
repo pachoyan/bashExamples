@@ -241,6 +241,8 @@ So if you use `ls -ld`.
 It is a shortening of `ls --dired` which does the same.
 It generates an output designed for Emacs' dired mode.
 
+**TO UPDATE**
+
 - Output:
 
 ``` 
