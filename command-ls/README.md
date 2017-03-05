@@ -265,4 +265,25 @@ So it lists all files why it uses `-a`. And it does not sort using list entries 
 
 It is a shortening of `ls --classify` which does the same.
 
-append indicator (one of */=>@|) to entries
+It appends an indicator (one of `*/=>@|`) to entries.
+
+
+- Output (see / in directory):
+
+``` 
+directory/  file1.txt  file1.txt~  file2.txt
+```
+
+- Notes:
+
+  - `@` means symbolic link (or that the file has extended attributes).
+  - `*` means executable.
+  - `=` means socket.
+  - `|` means named pipe.
+  - `>` means door.
+  - `/` means directory.
+ 
+    - More info: http://unix.stackexchange.com/a/82358/184402 - Thanks to <a href="http://unix.stackexchange.com/users/26112/evan-teitelman">evan-teitelman</a>
+  
+
+### ls --file-type
