@@ -6,7 +6,7 @@ The directory `dir`has the next files:
 - `file2.txt` with content 'Hello World 2!'
 - `.file1.txt` with content 'Hello World Hide!'
 - `file1.txt~` backup file with content 'Hello World!'
-- `directory` with content file_directory.txt
+- `directory` with files file_directory.txt and \n\t\b\a\b
 
 ----
 ### man ls
@@ -76,7 +76,7 @@ It prints C-style escapes for nongraphic characters
  
 - Notes:
  
-**At the moment** I've tried with some files with names like: 
+ I've tried with some files with names like: 
 
     \*\?\¿\º\ª\?\¿\&\%\$\·SpecialCharacterfile.txt
     
