@@ -81,7 +81,7 @@ To try it goes to the directory `/directory` usign `cd directory`.
 ``` 
 - Notes:
  
-   - - More info: http://askubuntu.com/a/889751/580852 - Thanks to <a href="http://askubuntu.com/users/158442/muru">muru</a>
+   - More info: http://askubuntu.com/a/889751/580852 - Thanks to <a href="http://askubuntu.com/users/158442/muru">muru</a>
  
   
 
