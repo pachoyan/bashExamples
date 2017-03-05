@@ -81,13 +81,8 @@ To try it goes to the directory `/directory` usign `cd directory`.
 ``` 
 - Notes:
  
- I've tried with some files with names like: 
-
-    \*\?\¿\º\ª\?\¿\&\%\$\·SpecialCharacterfile.txt
-    
-and the output with `ls -b` lists the same as `ls`. The output is the filename with the special characters. So the file above will be list like next:
-
-    *?¿ºª?¿&%$·SpecialCharacterfile.txt
+   - - More info: http://askubuntu.com/a/889751/580852 - Thanks to <a href="http://askubuntu.com/users/158442/muru">muru</a>
+ 
   
 
 ### ls -l --block-size={SIZE}
