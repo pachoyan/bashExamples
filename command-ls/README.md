@@ -310,4 +310,8 @@ It does te same as `ls -F` but it does not append `*` in executable files.
     ``` 
     directory/  file1.txt  file1.txt~  file2.txt
     ```
+   - If you want to create an executable file to test it you could use `chmod +x filename.sh`.
+       - More info: http://askubuntu.com/a/122433/580852 - Thanks to <a href="http://askubuntu.com/users/33833/ten-coin">ten-coin</a>
+   
+   
    
