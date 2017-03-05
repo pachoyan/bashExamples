@@ -343,3 +343,16 @@ drwxrwxr-x 2 osboxes osboxes 4096 2017-03-05 11:28:35.147301727 +0000 directory
 -rw-rw-r-- 1 osboxes osboxes   13 2017-03-04 13:00:58.637973648 +0000 file1.txt~
 -rw-rw-r-- 1 osboxes osboxes   15 2017-03-04 10:50:22.646331342 +0000 file2.txt
 ``` 
+
+### ls -g
+
+It lists like -l, but do not list owner
+
+- Output: 
+``` 
+total 16
+drwxrwxr-x 2 osboxes 4096 Mar  5 11:28 directory
+-rw-rw-r-- 1 osboxes   13 Mar  4 10:36 file1.txt
+-rw-rw-r-- 1 osboxes   13 Mar  4 13:00 file1.txt~
+-rw-rw-r-- 1 osboxes   15 Mar  4 10:50 file2.txt
+```
