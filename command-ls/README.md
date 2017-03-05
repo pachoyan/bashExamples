@@ -314,7 +314,8 @@ It does te same as `ls -F` but it does not append `*` in executable files.
    
       - More info: http://askubuntu.com/a/122433/580852 - Thanks to <a href="http://askubuntu.com/users/33833/ten-coin">ten-coin</a>
    
-   
+
+
 ### ls --format=WORD
    
  The available values are: `verbose`, `long`, `commas`, `horizontal`, `across`, `vertical`, `single-column`
