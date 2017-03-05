@@ -328,3 +328,17 @@ It does te same as `ls -F` but it does not append `*` in executable files.
 - Notes:
    
    - You can alo use one of this arguments to see the same output: across => `ls -x` | commas: `ls -m`| horizontal: `ls -x` | long: `ls -l`| single-column: `ls -1`| verbose: `ls -l` | vertical: `ls -C`
+
+
+### ls --full-time
+
+It list the files long format and the tyme `full-iso`. It works like `ls -l --time-style=full-iso`. 
+
+- Output:
+``` 
+total 16
+drwxrwxr-x 2 osboxes osboxes 4096 2017-03-05 11:28:35.147301727 +0000 directory
+-rw-rw-r-- 1 osboxes osboxes   13 2017-03-04 10:36:54.582368229 +0000 file1.txt
+-rw-rw-r-- 1 osboxes osboxes   13 2017-03-04 13:00:58.637973648 +0000 file1.txt~
+-rw-rw-r-- 1 osboxes osboxes   15 2017-03-04 10:50:22.646331342 +0000 file2.txt
+``` 
