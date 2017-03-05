@@ -304,15 +304,15 @@ It does te same as `ls -F` but it does not append `*` in executable files.
 ```
 
 - Notes: 
-   
-   - In the root dir if you use `ls --file-type` you'll see the output works with other types like folders. The output is the same as `ls -F`:
+  
+  - In the root dir if you use `ls --file-type` you'll see the output works with other types like folders. The output is the same as `ls -F`:
    
     ``` 
     directory/  file1.txt  file1.txt~  file2.txt
     ```
-   - If you want to create an executable file to test it you could use `chmod +x filename.sh`.
+  - If you want to create an executable file to test it you could use `chmod +x filename.sh`.
    
-        - More info: http://askubuntu.com/a/122433/580852 - Thanks to <a href="http://askubuntu.com/users/33833/ten-coin">ten-coin</a>
+      - More info: http://askubuntu.com/a/122433/580852 - Thanks to <a href="http://askubuntu.com/users/33833/ten-coin">ten-coin</a>
    
    
    
