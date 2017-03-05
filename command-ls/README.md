@@ -210,7 +210,7 @@ It is a shortening of `ls --directory` which does the same.
 It lists the directory entries instead of contents, and do not derefrence symbolic links.
 
 If you use ls -d you'll see the output `.` which is the current folder.
-It can be used to see a folder too adding a parameter of the folder name: `ls --directory anydirectory`
+It can be used to see a folder adding a parameter of the folder name: `ls --directory anydirectory`
 
 An useful example of how use it could be adding the `-l` argument, so you'll see more info about the current folder or the folder you pass an argument.
 
@@ -223,3 +223,9 @@ So if you use `ls -ld`.
 - Output (`ls -ld directory`)
 
     `drwxrwxr-x 2 osboxes osboxes 4096 Mar  4 10:53 directory/`
+
+- Notes: 
+   - If you want to use list the directories in the current folder you could use `ls -d */` 
+      - Output: 
+      
+         `directory/`       
