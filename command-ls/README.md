@@ -356,3 +356,15 @@ drwxrwxr-x 2 osboxes 4096 Mar  5 11:28 directory
 -rw-rw-r-- 1 osboxes   13 Mar  4 13:00 file1.txt~
 -rw-rw-r-- 1 osboxes   15 Mar  4 10:50 file2.txt
 ```
+
+### ls --group-directories-first
+
+It group directories before files.
+It can be augmented  with  a  --sort option, but any use of --sort=none (-U) disables grouping
+
+- Output using `ls --group-directories-first`:
+
+ ``` 
+ directory, file1.txt, file1.txt~, file2.txt
+ ```
+ 
