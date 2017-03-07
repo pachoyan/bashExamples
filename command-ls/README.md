@@ -360,11 +360,33 @@ drwxrwxr-x 2 osboxes 4096 Mar  5 11:28 directory
 ### ls --group-directories-first
 
 It group directories before files.
-It can be augmented  with  a  --sort option, but any use of --sort=none (-U) disables grouping
+It can be augmented  with a  --sort option, but any use of --sort=none (-U) disables grouping
 
 - Output using `ls --group-directories-first`:
 
  ``` 
  directory, file1.txt, file1.txt~, file2.txt
  ```
+ - Output using `ls -a --group-directories-first`:
+ ``` 
+ .  ..  directory  .file1.txt  file1.txt  file1.txt~  file2.txt
+ ```
  
+ - Output using `ls --group-directories-first --sort=none`:
+ 
+ ``` 
+file1.txt~  file2.txt  file1.txt  directory
+ ```
+- Notes:
+   
+   - Any other sort with one of next values `time`, `size`, `extension`, `version` will work.
+   - For example output with time (`ls -l --group-directories-first --sort=time`) will show:
+   
+    ``` 
+    total 16
+    drwxrwxr-x 2 osboxes osboxes 4096 Mar  5 11:28 directory
+    -rw-rw-r-- 1 osboxes osboxes   13 Mar  4 13:00 file1.txt~
+    -rw-rw-r-- 1 osboxes osboxes   15 Mar  4 10:50 file2.txt
+    -rw-rw-r-- 1 osboxes osboxes   13 Mar  4 10:36 file1.txt
+    ```
+   
