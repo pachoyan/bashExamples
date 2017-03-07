@@ -377,10 +377,12 @@ It can be augmented  with a  --sort option, but any use of --sort=none (-U) disa
  ``` 
 file1.txt~  file2.txt  file1.txt  directory
  ```
-- Notes:
-   
-   - Any other sort with one of next values `time`, `size`, `extension`, `version` will work.
-   - For example output with time (`ls -l --group-directories-first --sort=time`) will show:
+ 
+- Notes: 
+  
+  - Any other sort with one of next values `time`, `size`, `extension`, `version` will work.
+  
+  - For example output with time (`ls -l --group-directories-first --sort=time`) will list:
    
     ``` 
     total 16
