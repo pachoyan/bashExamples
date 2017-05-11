@@ -55,13 +55,13 @@ List directory contents and list hidden files  but it doesn't list `.` and `..`.
 It goes with `-l` command and list the author of each file.
 - Output: 
 
-   ```
+```
    total 16
 drwxrwxr-x 2 osboxes osboxes osboxes 4096 Mar  4 10:53 directory
 -rw-rw-r-- 1 osboxes osboxes osboxes   13 Mar  4 10:36 file1.txt
 -rw-rw-r-- 1 osboxes osboxes osboxes   13 Mar  4 13:00 file1.txt~
 -rw-rw-r-- 1 osboxes osboxes osboxes   15 Mar  4 10:50 file2.txt
-   ```
+```
 
 
 ### ls -b
@@ -84,7 +84,6 @@ It prints C-style escapes for nongraphic characters
    - More info: http://askubuntu.com/a/889751/580852 - Thanks to <a href="http://askubuntu.com/users/158442/muru">muru</a>
  
   
-
 ### ls -l --block-size={SIZE}
 
 It goes with `-l` command and scales size. SIZE is an integer and optional unit. 
@@ -126,6 +125,7 @@ It doesn't list files ending with `~`.
 ```
   directory  file1.txt  file2.txt
 ```
+
 ### ls -c
 
 It sorts the list by time, newest first.
@@ -185,6 +185,7 @@ file1.txt
 file1.txt~  
 file2.txt
 ```
+
 ### ls --color={WHEN}
 
 Colorize the output. The available values are:  `always`, `yes`, `force`, `never`, `no`, `none`, `auto`, `tty`, `if-tty`.
@@ -236,6 +237,7 @@ So if you use `ls -ld`.
       
    - More info: http://askubuntu.com/a/889541/580852 - Thanks to <a href="http://askubuntu.com/users/527764/zanna">Zanna</a>
   
+
 ### ls -D
 
 It is a shortening of `ls --dired` which does the same.
