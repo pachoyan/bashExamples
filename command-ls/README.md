@@ -376,9 +376,9 @@ It can be augmented  with a  --sort option, but any use of --sort=none (-U) disa
  
  - Output using `ls --group-directories-first --sort=none`:
  
- ``` 
+``` 
 file1.txt~  file2.txt  file1.txt  directory
- ```
+```
  
 - Notes: 
   
