@@ -73,11 +73,11 @@ It prints C-style escapes for nongraphic characters
 
 - Output with `ls`:
 ```
-      ?????  executable_file.sh  file_directory.txt
+?????  executable_file.sh  file_directory.txt
 ```
 - Output with `ls -b`:
 ```
-      \n\t\b\a\b  executable_file.sh  file_directory.txt
+\n\t\b\a\b  executable_file.sh  file_directory.txt
 ``` 
 - Notes:
  
@@ -94,25 +94,25 @@ Rounds to the high, in case we put MB and it is less than 1MB it will show 1MB.
 - Output (With K or KB: `ls -l --block-size=K`)
 
 
-   ```
+```
    total 16K
 drwxrwxr-x 2 osboxes osboxes 4K Mar  4 10:53 directory
 -rw-rw-r-- 1 osboxes osboxes 1K Mar  4 10:36 file1.txt
 -rw-rw-r-- 1 osboxes osboxes 1K Mar  4 13:00 file1.txt~
 -rw-rw-r-- 1 osboxes osboxes 1K Mar  4 10:50 file2.txt
-   ```
+```
    
 - Notes:
 
   - With M or MB lists 1M in all files because are less than 1MB - It will be the same with G, T and so on.
   
-    ```
+```
    total 1M
 drwxrwxr-x 2 osboxes osboxes 1M Mar  4 10:53 directory
 -rw-rw-r-- 1 osboxes osboxes 1M Mar  4 10:36 file1.txt
 -rw-rw-r-- 1 osboxes osboxes 1M Mar  4 13:00 file1.txt~
 -rw-rw-r-- 1 osboxes osboxes 1M Mar  4 10:50 file2.txt
-    ```
+```
   - If it is used without -l the list, for example `ls --block-size=K` the output will be the same as `ls`
   
 
@@ -123,7 +123,7 @@ It doesn't list files ending with `~`.
   
 - Output:
 ```
-  directory  file1.txt  file2.txt
+directory  file1.txt  file2.txt
 ```
 
 ### ls -c
@@ -132,7 +132,7 @@ It sorts the list by time, newest first.
 
 - Output:
 ```
-  file1.txt~  directory  file2.txt  file1.txt
+file1.txt~  directory  file2.txt  file1.txt
 ```
   
 ### ls -lt -c
@@ -169,13 +169,13 @@ It lists entries by columns.
 
 - Output:
 ``` 
-   directory  file1.txt  file1.txt~  file2.txt`
+directory  file1.txt  file1.txt~  file2.txt`
 ```
 - Notes:
 
   - It is possible that the output will be the same as the simple `ls`. So if you want to see how it works use a pipeline with <a href="https://github.com/pachoyan/bashExamples/tree/master/command-less">less</a> like next `ls -C | less`. The output will be:
 ```  
-     directory  file1.txt  file1.txt~  file2.txt
+directory  file1.txt  file1.txt~  file2.txt
 ```
   - But if you use the same command above without -C, like `ls | less`  it will be list by lines:
   
@@ -193,7 +193,7 @@ Colorize the output. The available values are:  `always`, `yes`, `force`, `neve
 Output (`ls --color=never`):
 
 ``` 
-   directory  file1.txt  file1.txt~  file2.txt`
+directory  file1.txt  file1.txt~  file2.txt`
 ```
 
 - Notes:
@@ -218,14 +218,14 @@ An useful example of how use it could be adding the `-l` argument, so you'll see
 So if you use `ls -ld`.
 
 - Output (`ls -ld`):
-   ``` 
-   drwxrwxr-x 3 osboxes osboxes 4096 Mar  5 09:20 .
-   ``` 
+``` 
+drwxrwxr-x 3 osboxes osboxes 4096 Mar  5 09:20 .
+``` 
    
 - Output (`ls -ld directory`)
-     ``` 
-    drwxrwxr-x 2 osboxes osboxes 4096 Mar  4 10:53 directory/
-     ``` 
+``` 
+drwxrwxr-x 2 osboxes osboxes 4096 Mar  4 10:53 directory/
+``` 
 
 - Notes: 
 
@@ -309,9 +309,9 @@ It does te same as `ls -F` but it does not append `*` in executable files.
   
   - In the root dir if you use `ls --file-type` you'll see the output works with other types like folders. The output is the same as `ls -F`:
    
-    ``` 
-    directory/  file1.txt  file1.txt~  file2.txt
-    ```
+``` 
+directory/  file1.txt  file1.txt~  file2.txt
+```
   - If you want to create an executable file to test it, you could use `chmod +x filename.sh`.
    
       - More info: http://askubuntu.com/a/122433/580852 - Thanks to <a href="http://askubuntu.com/users/33833/ten-coin">ten-coin</a>
@@ -324,9 +324,9 @@ It does te same as `ls -F` but it does not append `*` in executable files.
 
 - Output `ls --format=commas`:
 
-    ``` 
-    directory, file1.txt, file1.txt~, file2.txt
-    ```
+``` 
+directory, file1.txt, file1.txt~, file2.txt
+```
 
 - Notes:
    
@@ -386,11 +386,11 @@ file1.txt~  file2.txt  file1.txt  directory
   
   - For example output with time (`ls -l --group-directories-first --sort=time`) will list:
    
-    ``` 
-    total 16
-    drwxrwxr-x 2 osboxes osboxes 4096 Mar  5 11:28 directory
-    -rw-rw-r-- 1 osboxes osboxes   13 Mar  4 13:00 file1.txt~
-    -rw-rw-r-- 1 osboxes osboxes   15 Mar  4 10:50 file2.txt
-    -rw-rw-r-- 1 osboxes osboxes   13 Mar  4 10:36 file1.txt
-    ```
+``` 
+total 16
+drwxrwxr-x 2 osboxes osboxes 4096 Mar  5 11:28 directory
+-rw-rw-r-- 1 osboxes osboxes   13 Mar  4 13:00 file1.txt~
+-rw-rw-r-- 1 osboxes osboxes   15 Mar  4 10:50 file2.txt
+-rw-rw-r-- 1 osboxes osboxes   13 Mar  4 10:36 file1.txt
+```
    
